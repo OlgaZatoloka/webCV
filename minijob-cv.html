@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=900" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -24,15 +24,8 @@
         dt.education { height: 160px; }
         .unstyle li { margin-bottom: 16px; }
 
-        @media (max-width: 860px) {
-            #page-wrap { width: auto; margin: 24px 18px 40px; }
-            #pic { float: none; display: block; margin: 0 0 22px 0; width: 150px; }
-            #objective { width: auto; float: none; }
-            dt { float: none; width: auto; text-align: left; border-right: none; border-bottom: 1px solid #999; padding: 0 0 8px 0; margin-top: 20px; height: auto !important; }
-            dd { float: none; width: auto; margin-top: 12px; }
-            h1 { font-size: 34px; }
-            h2 span { position: static; display: block; margin-top: 2px; }
-        }
+        /* Keep the original desktop resume layout on phones too.
+           Mobile browsers may zoom out, but the left-column CV layout stays intact. */
     </style>
 </head>
 
