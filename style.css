@@ -43,9 +43,10 @@
 
         h2 span {
             display: block;
+            clear: both;
             margin-top: 3px;
             font-style: italic;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 20px;
             color: darkolivegreen;
             font-weight: 600;
