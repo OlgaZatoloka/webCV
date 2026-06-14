@@ -27,6 +27,14 @@
         .lang-links {
             margin-top: 8px;
         }
+    
+        @page { margin: 12mm; }
+        @media print {
+            html, body, #page-wrap { background: #ffffff !important; }
+            body { color: #111111 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            a { color: #333333 !important; border-bottom: none !important; }
+            .safe-note { background: rgba(85, 107, 47, 0.10) !important; color: #111111 !important; }
+        }
     </style>
 </head>
 
