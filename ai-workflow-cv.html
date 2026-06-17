@@ -24,10 +24,24 @@
             background: rgba(85, 107, 47, 0.10);
             border-left: 4px solid darkolivegreen;
         }
+        .ai-cv h2 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 4px 14px;
+            line-height: 1.25;
+        }
+        .ai-cv h2 span {
+            position: static;
+            margin-left: auto;
+            text-align: right;
+            white-space: normal;
+            flex: 1 1 260px;
+        }
     </style>
 </head>
 
-<body>
+<body class="ai-cv">
 
     <div id="page-wrap">
 
@@ -103,7 +117,7 @@
 
         <dt class="prexp">Professional Experience</dt>
         <dd>
-            <h2>Personal AI Workflow Practice<span>AI Workflow Operator &amp; HITL QA · 2025 – 2026</span></h2>
+            <h2>Personal AI Workflow<span>AI Workflow Operator &amp; HITL QA · 2025 – 2026</span></h2>
             <ul class="unstyle">
                 <li>Built and operate a personal multi-agent workflow on top of Claude Code, Hermes Agent, and OpenClaw
                     agents for research, document review, portal navigation, task routing and practical backoffice support.</li>
